@@ -87,6 +87,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
+Tijdens de lessen heb ik gekeken naar de 
+
+
+
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
