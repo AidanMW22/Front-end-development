@@ -96,10 +96,8 @@ Ik moet dan alleen uitzoeken hoe ik het zo responsive mogelijk kan gaan maken.
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+pijn ;( mijn uitkomsten ben ik vergeten te commiten
+
 
 </details>
 
