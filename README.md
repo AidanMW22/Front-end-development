@@ -32,23 +32,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Je website
 
-<details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
-
-  ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
-
-  #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
-
-  #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
- 
-</details>
-
-
 
 ## Toegankelijkheidstest 1/2 (week 1)
 
@@ -92,26 +75,29 @@ Tijdens de lessen heb ik gekeken naar de
 
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ 23/9/2023
+ Dit is hoe mijn eerste versie van de melkweg site er tot nu toe uit ziet. Ik heb mij vooral gefocust op de basis elementen van de html wat er allemaal in  moet. En ik heb dan in de css de font hetzelfde gemaakt. In illustrator heb ik iconen en het melkweg logo nagemaakt en op de site gezet. De <p> en de <a> moeten ook allemaal nog goed naast elkaar en onder elkaar komen.
+
+Ik moet dan alleen uitzoeken hoe ik het zo responsive mogelijk kan gaan maken.
+ 
+<img width="320" alt="Schermafbeelding 2023-11-23 om 23 11 50" src="https://github.com/AidanMW22/Front-end-development/assets/150928246/1cd80b34-0f06-4d86-84b9-32d86e49b6dd">
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Aidan            | Tico               | Yusuf    | 
+  | ---              | ---                | ---          |
+  | uitzoeken hoe ik | en dit             | en ik dit    |
+  | mijn tekst recht | dit als er tijd is | nog een punt
+  | trek             | ...                | ...          
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+pijn ;( mijn uitkomsten ben ik vergeten te commiten
+
 
 </details>
 
@@ -229,11 +215,14 @@ Tijdens de lessen heb ik gekeken naar de
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
+
+  https://www.w3schools.com/html/html_responsive.asp 
+
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
+  1.  
   2. bron 2
   3. ...
 
