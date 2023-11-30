@@ -113,15 +113,12 @@ pijn ;( mijn uitkomsten ben ik vergeten te commiten
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  Ik weet niet of ik mijn sections goed genest heb. En zoek nu uit hoe ik mijn content op een image wil gaan doen.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+
 
 
   ### Verslag van meeting
