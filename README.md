@@ -222,7 +222,7 @@ pijn ;( mijn uitkomsten ben ik vergeten te commiten
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1.  
+  1.  https://developer.mozilla.org/en-US/docs/Web/CSS/filter
   2. bron 2
   3. ...
 
