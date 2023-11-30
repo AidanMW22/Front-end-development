@@ -115,6 +115,10 @@ pijn ;( mijn uitkomsten ben ik vergeten te commiten
 
   Ik weet niet of ik mijn sections goed genest heb. En zoek nu uit hoe ik mijn content op een image wil gaan doen.
 
+  ![Schermafbeelding 2023-11-30 om 21 14 02](https://github.com/AidanMW22/Front-end-development/assets/150928246/bb2ace96-1db6-4b9f-ac27-21fd4645813e)
+
+![FireShot Capture 003 - Howdy FED2324 - 127 0 0 1](https://github.com/AidanMW22/Front-end-development/assets/150928246/0f9ca665-fb9e-4483-940b-4b684d168fc7)
+
   ### Agenda voor meeting
   samen met je groepje opstellen
 
