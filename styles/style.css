@@ -125,10 +125,26 @@ main section {
 	font-size: 0.7em;
  }
 
- main section img {
-	width: 17em;
+ @keyframes zoom-uit-animatie{
+	0%{
+		scale:0;
+	}
+
+	100%{
+		scale:2;
+	}
  }
 
+ main section img {
+	width: 17em;
+	
+ }
+
+ main section img {
+	width: 17em;
+	animation-name: zoom-uit-animatie;
+	animation-duration: 1s;
+ }
  
 
 
