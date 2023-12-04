@@ -224,7 +224,7 @@ pijn ;( mijn uitkomsten ben ik vergeten te commiten
   Nb. Vermeld de bronnen ook in je code.
 
   1.  https://developer.mozilla.org/en-US/docs/Web/CSS/filter
-  2. bron 2
+  2.  https://stackoverflow.com/questions/75366281/position-fixed-navigation-bar-at-bottom-of-screen
   3. ...
 
 </details>
