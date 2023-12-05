@@ -234,7 +234,8 @@ Ik moet uitzoeken hoe ik de nav bar aan de onderkant helemaal naar de linkerkant
   Nb. Vermeld de bronnen ook in je code.
 
   1.  https://developer.mozilla.org/en-US/docs/Web/CSS/filter
-  2.  https://stackoverflow.com/questions/75366281/position-fixed-navigation-bar-at-bottom-of-screen
-  3. ...
+  2.  https://stackoverflow.com/questions/75366281/position-fixed-navigation-bar-at-bottom-of-screen (nav-bar aan de onderkant van het scherm zetten)
+  3. https://teamtreehouse.com/community/media-query-hide-the-image (images uit media halen)
+  4. https://www.w3schools.com/cssref/css3_pr_mediaquery.php (media query uitleg)
 
 </details>
