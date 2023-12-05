@@ -160,7 +160,17 @@ pijn ;( mijn uitkomsten ben ik vergeten te commiten
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  ![image](https://github.com/AidanMW22/Front-end-development/assets/150928246/bdedac0a-55eb-4a1f-89bf-716d9c779f1b)
+<img width="1440" alt="Schermafbeelding 2023-12-05 om 20 35 43 (2)" src="https://github.com/AidanMW22/Front-end-development/assets/150928246/acb79766-1197-460b-8d0c-86d5a56c0f15">
+![Schermafbeelding 2023-12-05 om 20 35 43](https://github.com/AidanMW22/Front-end-development/assets/150928246/064adeb3-3469-4482-bea1-5ffc0d1cfb23)
 
+<img width="1440" alt="Schermafbeelding 2023-12-05 om 20 35 53 (2)" src="https://github.com/AidanMW22/Front-end-development/assets/150928246/aaf242d0-42bb-45ad-8f06-dcc0f85c7b62">
+![Schermafbeelding 2023-12-05 om 20 35 53](https://github.com/AidanMW22/Front-end-development/assets/150928246/84c97d10-58e1-49d0-ab6a-9147d23f5018)
+
+<img width="1440" alt="Schermafbeelding 2023-12-05 om 20 36 24 (2)" src="https://github.com/AidanMW22/Front-end-development/assets/150928246/a617b06b-6d20-42fc-8af7-216c7c35ae0e">
+![Schermafbeelding 2023-12-05 om 20 36 24](https://github.com/AidanMW22/Front-end-development/assets/150928246/21b5484a-e622-46c5-a0ff-9adedbbba1be)
+<img width="1440" alt="Schermafbeelding 2023-12-05 om 20 36 36 (2)" src="https://github.com/AidanMW22/Front-end-development/assets/150928246/0c6403a9-3bfd-4f5d-ab82-12fe380313c7">
+![Schermafbeelding 2023-12-05 om 20 36 36](https://github.com/AidanMW22/Front-end-development/assets/150928246/e20ea98b-1331-4b8a-a60b-473bb8f6e184)
 
   ### Agenda voor meeting
   samen met je groepje opstellen
