@@ -94,24 +94,29 @@ p {
 
 
 
-
+header section img {
+	padding-top: 1.5vw;
+}
 
 /* NAV */
 
 nav {
 	font-size: 3.5vw;
-	width: 70%;
+	width: 90%;
+	padding-bottom: 0.5em;
 }
 
 nav p {
-	display: inline;
+display: inline;
 }
 
 nav ul {
 	list-style-type: none;
-	display: inline;
 	padding: 0;
-	width: 20%;
+}
+
+nav ul  li a {
+
 }
 
 nav ul li {
@@ -127,12 +132,18 @@ nav ul li {
 
 @media screen and (max-width:650px) {
 
-#nav_bar {
+	nav {
+		font-size: 5vw;
+		width: 90%;
+		padding-bottom: 0.5em;
+	}
+
+#nav_bar nav{
 	width: 100%;
 	position: fixed;
 	overflow: hidden;
 	z-index: 1;
-	height: 6%;
+	height: 7%;
 	bottom: 0;
 	left: 0;
 	background-color: black;
@@ -145,15 +156,23 @@ nav ul li {
 }
 
 #nav_bar img {
-	width: 35%;
+	width: 25%;
 	filter: invert(100%);
 	margin-top: 0.5em;
+	
+	
+}
+
+
+#nav_bar button{
+	left: 10em;
 }
 
 
 #nav_bar button img {
-	width: 2em;
+	width: 5vw;
 	filter: invert(100%);
+
 }
 
 }
