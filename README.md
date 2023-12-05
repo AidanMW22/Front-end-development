@@ -160,9 +160,19 @@ pijn ;( mijn uitkomsten ben ik vergeten te commiten
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  ![image](https://github.com/AidanMW22/Front-end-development/assets/150928246/bdedac0a-55eb-4a1f-89bf-716d9c779f1b)
+<img width="1440" alt="Schermafbeelding 2023-12-05 om 20 35 43 (2)" src="https://github.com/AidanMW22/Front-end-development/assets/150928246/acb79766-1197-460b-8d0c-86d5a56c0f15">
+![Schermafbeelding 2023-12-05 om 20 35 43](https://github.com/AidanMW22/Front-end-development/assets/150928246/064adeb3-3469-4482-bea1-5ffc0d1cfb23)
 
+![Schermafbeelding 2023-12-05 om 20 37 42](https://github.com/AidanMW22/Front-end-development/assets/150928246/394d4fbf-5b8e-4f01-a900-bbc2b835d16c)
+![Schermafbeelding 2023-12-05 om 20 37 51](https://github.com/AidanMW22/Front-end-development/assets/150928246/3e9d8caf-61c9-4f51-b8b4-9a79b07e7b92)
+![Schermafbeelding 2023-12-05 om 20 38 12](https://github.com/AidanMW22/Front-end-development/assets/150928246/c17fcf3a-a071-45cc-8c39-019930f0fff8)
 
-  ### Agenda voor meeting
+<img width="730" alt="Schermafbeelding 2023-12-05 om 21 00 15" src="https://github.com/AidanMW22/Front-end-development/assets/150928246/f68ab3d8-274e-445a-82af-dcb6fb28d17f">
+Ik moet uitzoeken hoe ik de nav bar aan de onderkant helemaal naar de linkerkant kan verschuiven.
+
+  ### Agenda voor meeting![Schermafbeelding 2023-12-05 om 20 38 03](https://github.com/AidanMW22/Front-end-development/assets/150928246/a81954a6-3867-4a6f-afed-ce2265bba0c7)
+
   samen met je groepje opstellen
 
   | student 1      | student 2          | student 3    | student 4        |
@@ -224,7 +234,8 @@ pijn ;( mijn uitkomsten ben ik vergeten te commiten
   Nb. Vermeld de bronnen ook in je code.
 
   1.  https://developer.mozilla.org/en-US/docs/Web/CSS/filter
-  2.  https://stackoverflow.com/questions/75366281/position-fixed-navigation-bar-at-bottom-of-screen
-  3. ...
+  2.  https://stackoverflow.com/questions/75366281/position-fixed-navigation-bar-at-bottom-of-screen (nav-bar aan de onderkant van het scherm zetten)
+  3. https://teamtreehouse.com/community/media-query-hide-the-image (images uit media halen)
+  4. https://www.w3schools.com/cssref/css3_pr_mediaquery.php (media query uitleg)
 
 </details>
