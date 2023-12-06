@@ -186,7 +186,7 @@ Ik moet uitzoeken hoe ik de nav bar aan de onderkant helemaal naar de linkerkant
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
+  - je hoeft geen a in een button te zetten
   - punt 2
   - nog een punt
   - ...
