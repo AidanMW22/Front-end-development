@@ -172,6 +172,11 @@ pijn ;( mijn uitkomsten ben ik vergeten te commiten
 <img width="730" alt="Schermafbeelding 2023-12-05 om 21 00 15" src="https://github.com/AidanMW22/Front-end-development/assets/150928246/f68ab3d8-274e-445a-82af-dcb6fb28d17f">
 Ik moet uitzoeken hoe ik de nav bar aan de onderkant helemaal naar de linkerkant kan verschuiven.
 
+<img width="551" alt="Schermafbeelding 2023-12-07 om 13 23 14" src="https://github.com/AidanMW22/Front-end-development/assets/150928246/0179f7fe-631f-45c0-9d89-ae3380267f7d">
+
+
+
+
   ### Agenda voor meeting![Schermafbeelding 2023-12-05 om 20 38 03](https://github.com/AidanMW22/Front-end-development/assets/150928246/a81954a6-3867-4a6f-afed-ce2265bba0c7)
 
   samen met je groepje opstellen
