@@ -3,76 +3,81 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
+	<meta name="author" content="Aidan Williams">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Howdy FED2324</title>
+	<title>MELKWEG</title>
 
 	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+	<link rel="icon" type="image/svg+xml" href="images/melkweglogo.png">
 </head>
 
 <body>
+	<!-- HEADER MET NAVS -->
 	<header>
 
 		<section>
 
-			<img src="images/melkWegLogo.png" alt="melkWegLogo">
+			<h1 aria-label="welkom op de homepage van de melkweg">
+				<img src="images/melkWegLogo.png" alt="">
+			</h1>
+			
 
 			<nav>
-				
 				<p>FORMER MILK FACTORY, NOW CULTURAL VENUE</p>
 
 				<ul>
-					<li><a href="">CONCERTS</a></li>
-					<li><a href="">CLUB</a></li>
-					<li><a href="">FILM</a></li>
-					<li><a href="">EXPO</a></li>
+					<!-- niet schreeuwen -->
+					<li><a href="#">CONCERTS</a></li>
+					<li><a href="#">CLUB</a></li>
+					<li><a href="#">FILM</a></li>
+					<li><a href="#">EXPO</a></li>
 					<p>&</p>
-					<li><a href="">YOUNG CREATIVES</a></li>
+					<li><a href="#">YOUNG CREATIVES</a></li>
 				</ul>
 			</nav>
 
 		</section>
 
-		<section id="nav_bar">
+		<section>
 			<nav>
 
 				<ul>
-					<li>
-						<a class="extra" href="#">Agenda</a>
+					<li class="extra">
+						<a  href="#">Agenda</a>
 					</li>
-					<li>
-						<a class="extra" href="#">Bezoekersinfo</a>
+
+					<li class="extra">
+						<a  href="#">Bezoekersinfo</a>
 					</li>
+
 					<li>
-						<img id="melkWegLogo" src="images/melkWegLogo.png" alt="melkwegLogo">
+						<img src="images/melkWegLogo.png" alt="melkwegLogo">
 					</li>
+
 					<li>
 						<button>
-							<a href="#">
 								<img src="images/Searchicon.png" alt="searchIcon">
-							</a>
-					    </button>
+						</button>
 					</li>
+
 					<li>
 						<button>
-							<a href="#">
-								<img  src="images/hamburgerMenu.png" alt="menuLogo">
-						    </a>
+								<img src="images/hamburgerMenu.png" alt="menuLogo">
 						</button>
 					</li>
 
 				</ul>
 			</nav>
-		</section>
 
-		
+		</section>
 	</header>
+
 
 	<main>
 		<!-- section 1 asymmetrische pics -->
 		<section>
+			<h2>mag je verbergen</h2>
 			<ul>
 				<li>
 					<a href="#">
@@ -81,7 +86,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="film.html">
 						<img src="images/myNeighborTotoro.jpg" alt="myNeighborTotoro">
 						<p>FILM</p>
 					</a>
@@ -116,62 +121,77 @@
 			</ul>
 		</section>
 
-
-		<section id="programma">
-
+		<!-- PROGRAMMA -->
+		<section>
 			<h2>PROGRAMMA</h2>
 
-			<ul>
-				<li><a href="#">JUST ANNOUNCED</a></li>
-				<li><a href="#">NESXT</a></li>
-			</ul>
+				<!-- deze kan verborgen worden -->
+				<h3>just ANNOUNCED en next</h3>
 
-			<h3>
-				<a href="#">LIJPE</a>
-				<a href="#">CONCERT</a>
-				<a href="#">ZA 10 FEB<time datetime="2024-02-10 20:00"></time> </a>
-			</h3>
+				<ul>
+					<li><a href="#">JUST ANNOUNCED</a></li>
+					<li><a href="#">NEXT</a></li>
+				</ul>
 
-			<h3>
-				<a href="#">VANDENBERG</a>
-				<a href="#">CONCERT</a>
-				<a href="#">ZO 14 APR<time datetime="2024-04-14 20:00"></time> </a>
-			</h3>
+				<ul>
+					<li>
+						<a href="#">
+							<h4>LIJPE</h4>
+							<p>CONCERT</p>
+							<p><time datetime="2024-02-10 20:00">ZA 10 FEB</time></p>
+						</a>
+					</li>
 
-			<h3>
-				<a href="#">TECHNO TUESDAY</a>
-				<a href="#">CLUB</a>
-				<a href="#">DI 26 DEC<time datetime="2023-12-26 00:00"></time> </a>
-			</h3>
+					<li>
+						<a href="#">
+							<h4>vandenberg</h4>
+							<p>CONCERT</p>
+							<p><time datetime="2024-04-14 20:00">za 10 feb</time></p>
+						</a>
+					</li>
 
-			<h3>
-				<a href="#">TECHNO TUESDAY</a>
-				<a href="#">CLUB</a>
-				<a href="#">DI 26 DEC<time datetime="2023-12-26 00:00"></time> </a>
-			</h3>
+					<li>
+						<a href="#">
+							<h4>Techno tuesday</h4>
+							<p>Club</p>
+							<p><time datetime="2023-12-15 00:00">za 10 feb</time></p>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<h4>Techno tuesday</h4>
+							<p>Club</p>
+							<p><time datetime="2023-12-15 00:00">za 10 feb</time></p>
+						</a>
+					</li>
+				</ul>
+
+
+			<h3>HIGHLIGHTS</h3>
+				<img src="images/tylerTheCreator.jpg" alt="Tyler, the creator foto">
+				<p> WO 17 DEC<time datetime="2023-12-17 20:00"></time></p>
+				<h3><a href="#">TYLER, THE CREATOR</a></h3>
+
 		</section>
 
-		<!-- <section id="highlights">
-				<h2>HIGHLIGHTS</h2>
 
-				<section>
-					<img src="images/tylerTheCreator.jpg" alt="Tyler, the creator foto">
-					<p> WO 17 DEC<time datetime="2023-12-17 20:00"></time></p>
-					<h2><a href="#">TYLER, THE CREATOR</a></h2>
-				</section>
+		<!-- AGENDA -->
+		<section>
+			<h2>agenda</h2>
+			<a href="#">agenda <img src="images/pijl.png" alt="pijl"></a>
+	    </section>
 
-				<section>
-					<img src="images/tylerTheCreator.jpg" alt="Tyler, the creator foto">
-					<p> WO 17 DEC<time datetime="2023-12-17 20:00"></time></p>
-					<h2><a href="#">TYLER, THE CREATOR</a></h2>
-				</section>
+		<!-- SECTION 4: YOUNG CREATIVES -->
+		<section>
+			<img src="images/young-creatives-header.png" alt="twee vrouwen die aandachtig naar een gesprek luisteren">
 
-				<section>
-					<img src="images/tylerTheCreator.jpg" alt="Tyler, the creator foto">
-					<p> WO 17 DEC<time datetime="2023-12-17 20:00"></time></p>
-					<h2><a href="#">TYLER, THE CREATOR</a></h2>
-				</section> -->
-
+			<h2>young creatives</h2>
+			
+			<p>Melkweg biedt je de mogelijkheid je te ontwikkelen als maker, artiest of ondernemer en je weg te vinden in de Nederlandse kunst- en cultuursector. Het maakt niet uit of je nu net begint of al enige tijd meegaat, je op zoek bent naar nieuwe inspiratie of een nieuw netwerk, we bieden het allemaal! Dat doen we door middel van projecten, workshops, rondleidingen, masterclasses, trainingstrajecten en evenementen. Of we bieden je een podium, zodat jij ons kunt betoveren met je talenten.</p>
+			<a href="#">lees meer <img src="images/pijl.png" alt="pijl"></a>
+		</section>
+				
 	</main>
 
 

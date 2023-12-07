@@ -12,7 +12,7 @@
 /*********************/
 :root {
 	/* startje */
-	--color-text: #111;
+	--color-text: black;
 	--color-background: white;
 	--hover-main: white;
 }
@@ -29,50 +29,31 @@
 	padding: 0;
 }
 
-body {
-	margin: 0;
-}
-
-
 header {
 	max-width: 93vw;
 	margin: 0 auto;
 }
 
 main {
-
 	margin: 0 auto;
 }
-
 
 h2 {
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 2em;
-
-}
-
-main section h2 {
 	font-weight: normal;
 }
 
 main section h2 a {
 	text-decoration: none;
-
-
 }
 
 main section h2 a:hover {
 	text-decoration: underline;
 }
 
-main section img {
-	background-color: red;
-}
-
 img {
 	width: 100%;
-	padding: 0;
-	margin: 0;
 }
 
 a {
@@ -85,146 +66,157 @@ a:hover {
 	text-decoration: none;
 }
 
-
 p {
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 0.7em;
 }
 
-
-
-
-header section img {
-	padding-top: 1.5vw;
-}
-
-/* NAV */
-
-nav {
-	font-size: 2.7vw;
-	width: 90%;
-	padding-bottom: 0.5em;
-}
-
-nav p {
-display: inline;
-}
-
-nav ul {
+ul {
 	list-style-type: none;
-	padding: 0;
 }
 
-
-nav ul li {
-	display: inline;
-}
-
-
-
-
-
-
-/* NAV BAR */
+/* NAV BAR KLEIN SCHERM */
 
 @media screen and (max-width:650px) {
 
-	nav {
-		font-size: 5vw;
-		width: 90%;
+	/* Logo aan de bovenkant */
+	header section:nth-of-type(1) img {
+		padding-top: 0.5em;
 	}
 
-#nav_bar nav{
-	width: 100%;
-	position: fixed;
-	overflow: hidden;
-	z-index: 1;
-	min-height: 4%;
-	height: 2em;
-	bottom: 0;
-	left: 0;
-	background-color: black;
-}
+	header section nav :nth-of-type(1) {
+		font-size: em;
+	}
 
+	header section:nth-of-type(2) nav {
+		width: 100%;
+		position: fixed;
+		overflow: hidden;
+		z-index: 1;
+		bottom: 0;
+		left: 0;
+		background-color: black;
+	}
 
-
-#nav_bar img {
-	width: 25%;
-	filter: invert(100%);
-    position: absolute;
-	padding-left: 0.5em;
-	top: 0.5em;
-}
-
-
-
-
-#nav_bar button{
- background-color: var(--color-text);
- text-decoration: none;
- border: none;
- position: absolute;
- right: 4em;
- display: flex;
- justify-content: space-around;
- 
-}
-
-
-
-#nav_bar button:hover{
-	background-color: var(--color-text);
-	text-decoration: none;
-	filter: opacity(80%);
-   }
-
-
-#nav_bar button img {
-	width: 5vw;
-}
-
-.extra {
-	display: none;
-}
-
-}
-
-
-
-
-/* Grotere scherm */
-@media screen and (min-width:650px) {
-
-	#nav_bar {
-	position: absolute;
-	top:13.1vw;
-	right: 6vw;
+	header section:nth-of-type(2) ul {
+		display: flex;
+		align-items: center;
 	}
 
 
-	#nav_bar a {
-		text-decoration: none;
-		font-size: 1.5vw;
+	/* Header bovenkant */
+	header section nav:nth-of-type(1) a {
+		background-color: red;
+		font-size: 1.5em;
+		display: inline;
+		width: 100%;
+	}
 
-		}
+	header section nav:nth-of-type(1) p {
+		background-color: red;
+		font-size: 1.5em;
+		width: 100%;
+	}
 
-
-	#nav_bar a:hover {
-		text-decoration: underline;
-		}
-
-	#melkWegLogo {
+	/* agenda en info */
+	li:nth-of-type(1) {
 		display: none;
 	}
 
-	#nav_bar button {
-		width: 2.5em;
-		background-color: var(--color-background);
-		text-decoration: none;
-		border: none;
-		position: absolute;
-		right: 2em;
+	nav li:nth-of-type(2) {
+		display: none;
 	}
+
+	/* logo */
+	nav li:nth-of-type(3) img {
+		height: 1.25em;
+		filter: invert(100%);
+		padding-left: 2em;
+	}
+
+	/* zoek en menu */
+	button {
+		filter: invert(100%);
+		border: none;
+		width: 4em;
+		height: 4em;
+	}
+
+	/* image voor de buttons lol */
+	button img {
+		width: 2em;
+	}
+
+	/* hover */
+	button:hover {
+		background-color: var(--color-text);
+		text-decoration: none;
+		filter: opacity(50%);
+	}
+
+	button:hover img {
+		width: 2em;
+		filter: invert(100%);
+	}
+
+	/* zoek */
+	li:nth-of-type(4) {
+		margin-left: auto;
+	}
+}
+
+
+
+
+/* Grotere scherm header*/
+@media screen and (min-width:650px) {
+
+	/* links  en tekst melkweg */
+	header section p:nth-of-type(1) {
+		background-color: red;
+		font-size: 1.5em;
+		display: inline;
+
+	}
+
+	header section img:nth-of-type(1) {
+		padding-top: 1em;
+	}
+
+	header section nav:nth-of-type(1) a {
+		background-color: red;
+		font-size: 1.5em;
+		display: inline;
+	}
+
+
+	header section nav:nth-of-type(1) {
+		background-color: red;
+		font-size: 2em;
+		display: inline;
+	}
+
+	/* logo weghalen */
+	header section li:nth-of-type(1) {
+		display: none;
+		position: absolute;
+		right: 0;
+	}
+
+	/* logo weghalen */
+	header section li:nth-of-type(3) {
+		display: none;
+	}
+
+	/* Menu en search */
+	header section li:nth-of-type(4) {
+		display: none;
+	}
+
+	header section li:nth-of-type(5) {
+		display: none;
+	}
+
 }
 
 
@@ -236,87 +228,153 @@ nav ul li {
 main section {
 	width: 100%;
 	font-size: 0.7em;
-
 }
 
 /* section met asymmetrische pics */
-main section:nth-of-type(1) {
+main section:nth-child(-n+1) {
 	width: 100%;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/background_image.png');
 	background-size: cover;
-
 }
 
-@keyframes zoom-uit-animatie {
-	0% {
-		scale: 0;
-	}
-
-	100% {
-		scale: 2;
-	}
-}
-
-
-main section:nth-of-type(1) {
+main section:nth-child(-n+1) {
 	position: relative;
 }
 
-main section:nth-of-type(1) p {
+main section:nth-child(-n+1) h2 {
+	display: none;
+}
+
+main section:nth-child(-n+1) p {
 	font-size: 2vw;
 	font-family: "melkweg", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-
-main section:nth-of-type(1) a img {
-	width: 28vw;
-	animation-name: zoom-uit-animatie;
-	animation-duration: 1s;
+main section:nth-child(-n+1) a img {
+	width: 25vw;
 }
 
-
-main section:nth-of-type(1) ul li a img:hover {
-	animation-name: zoom-uit-animatie;
-	animation-duration: 1s;
-}
-
-
-main section:nth-of-type(1) ul {
+main section:nth-child(-n+1) ul {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	list-style-type: none;
 }
 
-
-main section:nth-of-type(1) li {
+main section:nth-child(-n+1) li {
 	padding: 2em;
 }
 
-
-main section:nth-of-type(1) li:nth-child(3n+1) {
+main section:nth-child(-n+1) li:nth-child(3n+1) {
 	grid-column: 1 / 3;
 	display: flex;
 	justify-content: center;
 }
 
-
-
-
-main section:nth-of-type(1) a {
+main section:nth-child(-n+1) a {
 	color: var(--hover-main);
 	text-decoration: none;
 }
 
 
-main section:nth-of-type(1) a:hover {
+main section:nth-child(-n+1) a:hover {
 	color: var(--hover-main);
 	text-decoration: underline;
 }
 
+/* SECTION 2: PROGRAMMA
+Hier grid gebruiken  voor de programma's en highlights
+ */
+
+main section:nth-child(-2n + 2){
+	padding: 2em;
+	max-width: 93vw;
+	padding-left: 3em;
+}
+
+main section:nth-child(-2n + 2) img {
+	width: 30em;
+}
+
+main section:nth-child(-2n + 2) ul {
+	font-size: 4em;
+}
 
 
+main section:nth-child(-2n + 2) h2 {
+	font-family: "melkweg", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 5em;
+}
 
-/* section programma */
-main section:nth-of-type(2) {
-	color: black;
+main section h3:nth-of-type(1) {
+	display: none;
+}
+
+
+/* DERDE SECTION: AGENDA */
+
+/* Weghalen h3 kopje */
+main section:nth-child(-3n + 3) h2 {
+   display: none;
+}
+
+/* styling a link */
+main section:nth-child(-3n + 3) a {
+	font-family: "melkweg", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 5em;
+   text-decoration: none;
+   padding: 0.3em;
+   padding-left: 0.54em;
+   border: solid var(--color-text);
+   background-color: var(--color-background);
+   display: block;
+}
+
+main section:nth-child(-3n + 3) img {
+width: 0.6em;
+}
+
+main section:nth-child(-3n + 3) a:hover {
+	font-family: "melkweg", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 5em;
+   text-decoration: none;
+   padding: 0.3em;
+   padding-left: 0.54em;
+   border: solid var(--color-text);
+   display: block;
+   filter: invert(100%);
+}
+
+
+/* 4E SECTION: YOUNG CREATIVES */
+main section:nth-child(-4n + 4) {
+	padding: 2em;
+}
+
+main section:nth-child(-4n + 4) h2{
+	font-family: "melkweg", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 5em;
+	padding-top: 0.1em;
+	padding-bottom: 0.3em;
+}
+
+main section:nth-child(-4n + 4) p{
+	font-size: 2em;
+	padding-bottom: 1em;
+}
+
+/* link naar lees meer */
+main section:nth-child(-4n + 4) a{
+	font-size: 2em;
+	text-decoration: none;
+	padding-bottom: 5em;
+}
+
+main section:nth-child(-4n + 4) a:hover{
+	font-size: 2em;
+	text-decoration: underline;
+}
+
+main section:nth-child(-4n + 4) a img{
+	width: 0.6em;
+	
 }
