@@ -192,10 +192,19 @@ Ik moet uitzoeken hoe ik de nav bar aan de onderkant helemaal naar de linkerkant
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - je hoeft geen a in een button te zetten
-  - punt 2
-  - nog een punt
-  - ...
-
+  - ::before en ::after
+  - justify content space betweeen
+  - align-items: center zodat alle items in het midden zitten
+  - details[open]  summary::after {
+  - place-content:center;
+  - aspect-ratio:1;
+  - background-repeat: no repeat; (dan herhaalt de baclground niet meer)
+  - background-position:center;
+  - linear-gradient kun je wel een achtergrond kleur geven
+  - content: "" (moet je hebben maar je mag de content wel leeg laten)
+  - border-bottom: solid 2px
+  - first-of-type {border-top : solid 2px 
+  - 
 </details>
 
 
