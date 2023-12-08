@@ -103,6 +103,20 @@ ul {
 		align-items: center;
 	}
 
+	/* agenda en info */
+	header section:nth-of-type(2) ul  li:nth-of-type(1) {
+		display: none;
+	}
+
+	header section:nth-of-type(2) ul  li:nth-of-type(2) {
+		display: none;
+	}
+
+	/* zoek */
+	header section:nth-of-type(2) ul li:nth-of-type(4) {
+		margin-left: auto;
+	}
+
 
 	/* Header bovenkant */
 	header section nav:nth-of-type(1) a {
@@ -113,20 +127,21 @@ ul {
 	}
 
 	header section nav:nth-of-type(1) p {
+		display: inline-block;
 		background-color: red;
 		font-size: 1.5em;
 		width: 100%;
 	}
 
-	/* agenda en info */
-	li:nth-of-type(1) {
-		display: none;
+	/* header section nav:nth-of-type(1) ul {
+		display: inline-block;
 	}
 
-	nav li:nth-of-type(2) {
-		display: none;
-	}
+	header section nav:nth-of-type(1) ul li{
+		display: inline-block;
+	} */
 
+	
 	/* logo */
 	nav li:nth-of-type(3) img {
 		height: 1.25em;
@@ -159,10 +174,7 @@ ul {
 		filter: invert(100%);
 	}
 
-	/* zoek */
-	li:nth-of-type(4) {
-		margin-left: auto;
-	}
+	
 }
 
 
@@ -219,8 +231,10 @@ ul {
 
 }
 
+/* alles voor groot scherm hier zetten */
+@media (min-width: 650px) {
 
-
+}
 
 
 /* MAIN */
@@ -324,7 +338,8 @@ main section:nth-child(-3n + 3) a {
    text-decoration: none;
    padding: 0.3em;
    padding-left: 0.54em;
-   border: solid var(--color-text);
+   border-bottom: solid var(--color-text);
+   border-top: solid var(--color-text);
    background-color: var(--color-background);
    display: block;
 }
@@ -339,7 +354,7 @@ main section:nth-child(-3n + 3) a:hover {
    text-decoration: none;
    padding: 0.3em;
    padding-left: 0.54em;
-   border: solid var(--color-text);
+   border-bottom: solid var(--color-text);
    display: block;
    filter: invert(100%);
 }
