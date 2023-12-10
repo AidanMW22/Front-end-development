@@ -41,6 +41,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  
+  ![IMG_5904 Klein](https://github.com/AidanMW22/Front-end-development/assets/150928246/78c67d21-f100-45bf-911e-a6e9fc1f255d)
+![IMG_5903 Klein](https://github.com/AidanMW22/Front-end-development/assets/150928246/3825e9aa-a1ef-43a7-9811-c6c2e37b697f)
+![IMG_5902 Klein](https://github.com/AidanMW22/Front-end-development/assets/150928246/dfedade4-d7a1-4385-8f46-2c25aea96c49)
+![IMG_5901 Klein](https://github.com/AidanMW22/Front-end-development/assets/150928246/ea533e0b-94aa-449d-a253-0a14a5750291)
+![IMG_5900 Klein](https://github.com/AidanMW22/Front-end-development/assets/150928246/0c3ca0ce-3c86-438a-8dec-4ec1d231335b)
+
 
 </details>
 
@@ -71,8 +78,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
-Tijdens de lessen heb ik gekeken naar de 
+Tijdens de lessen heb ik gekeken naar de vormgeving van de site om een beeld te krijgen van hoe ik de melkweg site kan namaken.
 
+![Schermafbeelding 2023-12-10 om 16 53 26](https://github.com/AidanMW22/Front-end-development/assets/150928246/f135d7e0-3900-4795-bf62-a949451e4d82)
 
 
   ### Stand van zaken
