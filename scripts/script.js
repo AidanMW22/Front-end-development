@@ -1,21 +1,24 @@
 // JavaScript Document
 console.log("hi");
 
-var openSearchButton = document.querySelector("header > button");
-var search= document.querySelector("header nav");
+var openSearchButton = document.querySelector(".searchKnop");
+var deNav = document.querySelector("header nav")
 
 openSearchButton.onclick = openMenu;
+
 function openMenu() {
-    search.classList.add("open")
+    deNav.classList.add("openSearch")
 }
 
 
+var sluitKnop = document.querySelector()
 
 
-var openMenuButton = document.querySelector("header > button");
-var deMenu= document.querySelector("header nav");
 
-openSearchButton.onclick = openMenu;
-function openMenu() {
-    search.classList.add("open")
-}
+
+
+
+
+
+
+
