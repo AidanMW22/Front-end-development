@@ -225,23 +225,48 @@ Ik moet uitzoeken hoe ik de nav bar aan de onderkant helemaal naar de linkerkant
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  
+<img width="584" alt="Schermafbeelding 2023-12-10 om 17 21 25" src="https://github.com/AidanMW22/Front-end-development/assets/150928246/081ed514-9abf-4e71-afab-82719d88c245">
 
+<img width="582" alt="Schermafbeelding 2023-12-10 om 17 21 41" src="https://github.com/AidanMW22/Front-end-development/assets/150928246/b6087690-a15c-4b8b-8a60-d4023cf7b21c">
+
+<img width="571" alt="Schermafbeelding 2023-12-10 om 17 22 00" src="https://github.com/AidanMW22/Front-end-development/assets/150928246/8ab4bc49-d3c7-4f45-be70-a70dee417bc3">
+
+<img width="584" alt="Schermafbeelding 2023-12-10 om 17 22 30" src="https://github.com/AidanMW22/Front-end-development/assets/150928246/71ed7979-2190-44f6-a495-1852c632f918">
+
+<img width="588" alt="Schermafbeelding 2023-12-10 om 17 22 48" src="https://github.com/AidanMW22/Front-end-development/assets/150928246/381d73d8-d22d-4949-a3af-4a70efdfcf42">
+
+<img width="337" alt="Schermafbeelding 2023-12-10 om 17 23 12" src="https://github.com/AidanMW22/Front-end-development/assets/150928246/a59c8b99-0c0d-4223-a1e1-45751e752dd4">
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+Het gebruiken van nth-of-type() ging steeds beter, ik heb nog steeds wel een beetje moeite soms met het selecteren van een specifieke element.
+![Schermafbeelding 2023-12-10 om 17 25 14](https://github.com/AidanMW22/Front-end-development/assets/150928246/115f051c-5bed-4996-afc5-cfcbc9dbb749)
 
+Ik weet nu ook dat je een image in css kan zetten om er een achtergrond aan te geven. Ik ben ook blij dat dat gelukt is sinds dat de eerste scherm is waar je naar kijkt.
+<img width="459" alt="Schermafbeelding 2023-12-10 om 17 26 32" src="https://github.com/AidanMW22/Front-end-development/assets/150928246/27a3bde7-a3c9-465c-be0e-53d8e31d3c28">
+
+Ik heb geleerd om min-width te gebruiken in plaat van max-width om mijn pagina te stylen. Want ik had ze doorelkaar gehaald.
+
+
+![Schermafbeelding 2023-12-10 om 17 29 18](https://github.com/AidanMW22/Front-end-development/assets/150928246/ab0fc66b-8f83-4e04-9e76-5b58d04ade19)
+
+
+Ik ben blij dat mijn nav bar erin is gekomen. Ik moet het alleen nog wel gaan fixen, zodat het goed responsive word
+<img width="492" alt="Schermafbeelding 2023-12-10 om 17 32 29" src="https://github.com/AidanMW22/Front-end-development/assets/150928246/85f03fd5-91e2-4976-a5f3-e0da1f8d0c34">
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
-</details>
+Ik probeerde met javascript mijn search icon clickable te maken wat wel, gelukt was alleen ik weet niet meer precies hoe je dan die element kan gaan stylen zodat er content op komt. Ik heb nu bijvoorbeeld een black screen, omdat ik niet precies meer weet hoe je dit element kan stylen.
+<img width="456" alt="Schermafbeelding 2023-12-10 om 17 30 43" src="https://github.com/AidanMW22/Front-end-development/assets/150928246/80b98a71-3ca6-4c31-aa20-b8ee94ef8417">
+
+Ik heb soms wel moeite om nog specifieker een element te kiezen, waardoor ik vaak lang moet puzzelen welke element de goeie is met nth-of-type, want soms overlappen ze voor mijn gevoel. 
 
 
-
+Ik zit ook constant te stuggelen met de bovenkant van mijn navbar
+<img width="815" alt="Schermafbeelding 2023-12-10 om 17 42 09" src="https://github.com/AidanMW22/Front-end-development/assets/150928246/dc71f210-71cb-4c95-97ad-c6eee44abffe">
 
 
 ## Bronnenlijst
@@ -261,5 +286,6 @@ Ik moet uitzoeken hoe ik de nav bar aan de onderkant helemaal naar de linkerkant
   3. https://teamtreehouse.com/community/media-query-hide-the-image (images uit media halen)
   4. https://www.w3schools.com/cssref/css3_pr_mediaquery.php (media query uitleg)
   5. https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child (nth-of-child uitleg)
+  6. chat gpt voor de java script css styling
 
 </details>
