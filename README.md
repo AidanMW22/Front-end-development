@@ -269,6 +269,10 @@ Ik zit ook constant te stuggelen met de bovenkant van mijn navbar
 <img width="815" alt="Schermafbeelding 2023-12-10 om 17 42 09" src="https://github.com/AidanMW22/Front-end-development/assets/150928246/dc71f210-71cb-4c95-97ad-c6eee44abffe">
 
 
+Ik heb door de map naam te veranderen mijn css laten buggen.
+De image werkt niet meer en kopjes zijn nu groter dan ze normaal zijn.
+<img width="692" alt="Schermafbeelding 2023-12-10 om 19 01 06" src="https://github.com/AidanMW22/Front-end-development/assets/150928246/bca1db74-bb84-484f-baa1-4f006811f3ca">
+
 ## Bronnenlijst
 
 <details open>
