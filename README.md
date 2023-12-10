@@ -291,5 +291,7 @@ De image werkt niet meer en kopjes zijn nu groter dan ze normaal zijn.
   4. https://www.w3schools.com/cssref/css3_pr_mediaquery.php (media query uitleg)
   5. https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child (nth-of-child uitleg)
   6. chat gpt voor de java script css styling
+  7. https://www.w3schools.com/howto/howto_css_arrows.asp (pijl maken in css)
+  8. summary code van ruby
 
 </details>
