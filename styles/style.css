@@ -58,8 +58,6 @@ h2 {
 	font-weight: normal;
 }
 
-
-
 main section h2 a {
 	text-decoration: none;
 }
@@ -84,7 +82,6 @@ a:hover {
 
 p {
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	font-size: 1.5em;
 }
 
 
@@ -101,48 +98,22 @@ ul {
 
 @media screen and (min-width:0px) {
 
-/* Header bovenkant */
-
-/* header section nav:nth-of-type(1) a {
-	background-color: red;
-	font-size: 1.5em;
-	display: inline;
-	width: 100%;
-}
-
-header section nav:nth-of-type(1) p {
-	display: inline-block;
-	background-color: red;
-	font-size: 1.5em;
-	width: 100%;
-} */
-
-
-	/* header section nav:nth-of-type(1) ul {
-		display: inline-block;
-	}
-
-	header section nav:nth-of-type(1) ul li{
-		display: inline-block;
-	} */
-
-
-
 	/* Logo aan de bovenkant */
 
 	header section:nth-of-type(1) img {
 		padding-top: 0.5em;
-	}
+	} 
 
 	/* Tekst nav */
 	header section ul:nth-of-type(1) {
 		display: flex;
+		text-transform: uppercase;
+		font-size: 2vw;
 	}
 
 	/* DEZE MOET JE LETTEN */
 	header section:nth-of-type(1) ul li{
 		display: flex;
-
 		margin: 0.3em;
 	}
 
@@ -217,60 +188,38 @@ header section nav:nth-of-type(1) p {
 		filter: invert(100%);
 	}
 }
-
+ 
 
 /* Grotere scherm header*/
 @media screen and (min-width:650px) {
-
-	/* links  en tekst melkweg
-	header section p:nth-of-type(1) {
-		background-color: red;
-		font-size: 1.5em;
-		display: inline;
-
-	}
-
-	header section img:nth-of-type(1) {
-		padding-top: 1em;
-	}
-
-	header section nav:nth-of-type(1) a {
-		background-color: red;
-		font-size: 1.5em;
-		display: inline;
-	}
-
-
-	header section nav:nth-of-type(1) {
-		background-color: red;
-		font-size: 2em;
-		display: inline;
-	}
-
-	/* logo weghalen */
-
 
 	/* logo weghalen */
 	header section li:nth-of-type(3) {
 		display: none;
 	}
 
-	/* Menu en search */
-	header section li:nth-of-type(4) {
-
-	}
-
-	header section li:nth-of-type(5) {
 	
-	} 
 
-}
 
 /* alles voor groot scherm hier zetten */
 @media (min-width: 650px) {
 
+	header section li:nth-of-type(3) {
+		display: none;
+	}
+	/* Menu en search */
+	header section li:nth-of-type(4) {
+		display: none;
+
+	}
+
+	header section li:nth-of-type(5) {
+	 display: none;
+	} 
+
 }
 
+}
 
 /* MAIN */
 
@@ -282,7 +231,7 @@ main section {
 /* section met asymmetrische pics */
 main section:nth-child(-n+1) {
 	width: 100%;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/background_image.png');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('Front-end-development/images/background_image.png');
 	background-size: cover;
 }
 
@@ -344,14 +293,21 @@ Hier grid gebruiken  voor de programma's en highlights
 
  /* Algemen dingen */
 
- main section:nth-child(-2n + 2) ul {
-	font-size: 4em;
-}
 
+
+ @media screen and (min-width:0px){
+	
+ }
+ 
  main section:nth-child(-2n + 2){
 	padding: 2em;
 }
 
+ main section:nth-child(-2n + 2) ul {
+	font-size: 4em;
+}
+
+ 
  /* h3 weghalen */
  main section h3:nth-of-type(1) {
 	display: none;
@@ -373,7 +329,7 @@ main section:nth-child(-2n + 2) ul:nth-of-type(1){
 	font-size: 2em;
 	display: flex;
 	padding-bottom: 0.8em;
-	border-bottom: solid 2px black ;
+	border-bottom: solid 2px var(--color-text);
 	text-transform: uppercase;
 }
 
@@ -396,7 +352,7 @@ main section:nth-child(-2n + 2) ul:nth-of-type(2) li{
 	font-size: 0.6em;
 	padding-bottom: 0.8em;
 	border-bottom: solid 2px var(--color-lijn) ;
-	filter: opacity(70%);
+	color: var(--color-lijn);
 	text-transform: uppercase;
 	position: relative;
 }
@@ -474,8 +430,20 @@ main section:nth-child(-2n + 2) ul:nth-of-type(3) img{
 
 
 
+/* Sectoin 3 groot scherm */
+@media screen and (min-width:650px) {
 
 
+	main section:nth-child(-2n + 2)  ul:nth-of-type(2) img{
+	width: 6em;
+
+	}
+	main section:nth-child(-2n + 2) {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	
+}
 
 
 
@@ -520,6 +488,8 @@ main section:nth-child(-3n + 3) a:hover {
 
 
 
+@media screen and (min-width:0px) {
+	
 /* 4E SECTION: YOUNG CREATIVES */
 main section:nth-child(-4n + 4) {
 	padding: 2em;
@@ -554,7 +524,18 @@ main section:nth-child(-4n + 4) a img{
 	
 }
 
+}
 
+
+@media screen and (min-width:650px) {
+	
+	/* 4E SECTION: YOUNG CREATIVES */
+	main section:nth-child(-4n + 4)  {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 2em
+	}
+}
 
 
 
