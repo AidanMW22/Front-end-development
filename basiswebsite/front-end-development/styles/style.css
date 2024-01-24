@@ -44,7 +44,13 @@ ul{
 }
 /* NAVBARR */
 
-header section:nth-of-type(2) nav {
+
+/* navbar op mobiel */
+
+@media screen and (min-width:0px) {
+    
+
+header section:nth-of-type(2) nav:nth-of-type(1){
     overflow: hidden;
     position: fixed;
     bottom: 0;
@@ -52,15 +58,15 @@ header section:nth-of-type(2) nav {
     background-color: var(--color-text);
     z-index: 1;
 }
-header section:nth-of-type(2) ul {
+header section:nth-of-type(2) nav:nth-of-type(1) ul {
    display: flex;
 }
 
-header section:nth-of-type(2) a {
+header section:nth-of-type(2) nav:nth-of-type(1) a {
     display: none;
 }
 
-header section:nth-of-type(2) li:nth-of-type(3) img {
+header section:nth-of-type(2) nav:nth-of-type(1) li:nth-of-type(3) img {
     display: block;
     filter: invert(100%);
     padding-top: 1.2em;
@@ -69,18 +75,71 @@ header section:nth-of-type(2) li:nth-of-type(3) img {
 }
 
 
-header section:nth-of-type(2) ul li:nth-of-type(4) {
+header section:nth-of-type(2) nav:nth-of-type(1) ul li:nth-of-type(4) {
   margin-left: auto;
 }
 
-button {
+nav:nth-of-type(1) button {
     filter: invert(100%);
     border: none;
     width: 4em;
     height: 4em;
 }
 
-button img {
+nav:nth-of-type(1) button img {
     padding-top: 0.5em;
     width: 2em;
 }
+
+}
+
+
+/* navbar op grotere schermen */
+
+@media screen and (min-width:650px) {
+    
+
+    header section:nth-of-type(2) nav:nth-of-type(2){
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: var(--color-text);
+        z-index: 1;
+    }
+    header section:nth-of-type(2) nav:nth-of-type(2) ul {
+       display: flex;
+    }
+    
+    header section:nth-of-type(2) nav:nth-of-type(2) a {
+        display: none;
+    }
+    
+    header section:nth-of-type(2) nav:nth-of-type(1) li:nth-of-type(3) img {
+        display: block;
+        filter: invert(100%);
+        padding-top: 1.2em;
+        width: 8em;
+        padding-left: 1em;
+    }
+    
+    
+    header section:nth-of-type(2) nav:nth-of-type(1) ul li:nth-of-type(4) {
+      margin-left: auto;
+    }
+    
+    nav:nth-of-type(1) button {
+        filter: invert(100%);
+        border: none;
+        width: 4em;
+        height: 4em;
+    }
+    
+    nav:nth-of-type(1) button img {
+        padding-top: 0.5em;
+        width: 2em;
+    }
+    
+    
+    }
+
