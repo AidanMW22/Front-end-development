@@ -1,0 +1,541 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text: black;
+	--color-background: white;
+	--hover-main: white;
+	--color-lijn: gray;
+}
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* jouw code */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/* Button styling */
+
+.openSearch {
+	background-color: var(--color-text); /* Semi-transparent black background */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999; /* Ensure it's above other content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+	max-width: 93vw;
+	margin: 0 auto;
+}
+
+h2 {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 2em;
+	font-weight: normal;
+}
+
+main section h2 a {
+	text-decoration: none;
+}
+
+main section h2 a:hover {
+	text-decoration: underline;
+}
+
+img {
+	width: 100%;
+}
+
+a {
+	color: black;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 1.5em;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+p {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+li {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ul {
+	list-style-type: none;
+}
+
+
+
+/* NAV BAR KLEIN SCHERM */
+
+@media screen and (min-width:0px) {
+
+	/* Logo aan de bovenkant */
+
+	header section:nth-of-type(1) img {
+		padding-top: 0.5em;
+	} 
+
+	/* Tekst nav */
+	header section ul:nth-of-type(1) {
+		display: flex;
+		text-transform: uppercase;
+		font-size: 2vw;
+	}
+
+	/* DEZE MOET JE LETTEN */
+	header section:nth-of-type(1) ul li{
+		display: flex;
+		margin: 0.3em;
+	}
+
+	header section:nth-of-type(1) ul li:nth-of-type(5){
+		display: flex;
+		font-size:0.8em;
+		margin: 0.1em;
+	}
+
+
+	/* code voor de navbar aan de onderkant */
+	header section:nth-of-type(2) nav {
+		width: 100%;
+		position: fixed;
+		overflow: hidden;
+		z-index: 1;
+		bottom: 0;
+		left: 0;
+		background-color: black;
+	}
+
+	header section:nth-of-type(2) ul {
+		display: flex;
+		align-items: center;
+	}
+
+	/* agenda en info */
+	header section:nth-of-type(2) ul  li:nth-of-type(1) {
+		display: none;
+	}
+
+	header section:nth-of-type(2) ul  li:nth-of-type(2) {
+		display: none;
+	}
+
+	/* zoek */
+	header section:nth-of-type(2) ul li:nth-of-type(4) {
+		margin-left: auto;
+	}
+
+	
+	/* logo */
+	nav li:nth-of-type(3) img {
+		height: 1.25em;
+		filter: invert(100%);
+		padding-left: 1em;
+	}
+
+	/* zoek en menu */
+	button {
+		filter: invert(100%);
+		border: none;
+		width: 4em;
+		height: 4em;
+	}
+
+
+	/* image voor de buttons lol */
+	button img {
+		width: 2em;
+	}
+
+	/* hover */
+	button:hover {
+		background-color: var(--color-text);
+		text-decoration: none;
+		filter: opacity(50%);
+	}
+
+	button:hover img {
+		width: 2em;
+		filter: invert(100%);
+	}
+}
+ 
+
+/* Grotere scherm header*/
+@media screen and (min-width:650px) {
+
+	/* logo weghalen */
+	header section li:nth-of-type(3) {
+		display: none;
+	}
+
+	
+
+
+/* alles voor groot scherm hier zetten */
+@media (min-width: 650px) {
+
+	header section li:nth-of-type(3) {
+		display: none;
+	}
+	/* Menu en search */
+	header section li:nth-of-type(4) {
+		display: none;
+
+	}
+
+	header section li:nth-of-type(5) {
+	 display: none;
+	} 
+
+}
+
+}
+
+/* MAIN */
+
+main section {
+	width: 100%;
+	font-size: 0.7em;
+}
+
+/* section met asymmetrische pics */
+main section:nth-child(-n+1) {
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('Front-end-development/images/background_image.png');
+	background-size: cover;
+}
+
+main section:nth-child(-n+1) {
+	position: relative;
+}
+
+main section:nth-child(-n+1) h2 {
+	display: none;
+}
+
+main section:nth-child(-n+1) p {
+	font-size: 2vw;
+	font-family: "melkweg", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main section:nth-child(-n+1) a img {
+	width: 25vw;
+}
+
+main section:nth-child(-n+1) ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	list-style-type: none;
+}
+
+main section:nth-child(-n+1) li {
+	padding: 2em;
+}
+
+main section:nth-child(-n+1) li:nth-child(3n+1) {
+	grid-column: 1 / 3;
+	display: flex;
+	justify-content: center;
+}
+
+main section:nth-child(-n+1) a {
+	color: var(--hover-main);
+	text-decoration: none;
+}
+
+main section:nth-child(-n+1) a:hover {
+	color: var(--hover-main);
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+/* SECTION 2: PROGRAMMA
+Hier grid gebruiken  voor de programma's en highlights
+ */
+
+ /* Algemen dingen */
+
+
+
+ @media screen and (min-width:0px){
+	
+ }
+ 
+ main section:nth-child(-2n + 2){
+	padding: 2em;
+}
+
+ main section:nth-child(-2n + 2) ul {
+	font-size: 4em;
+}
+
+ 
+ /* h3 weghalen */
+ main section h3:nth-of-type(1) {
+	display: none;
+}
+
+/* Programma heading goed zetten */
+main section:nth-child(-2n + 2) h2 {
+	font-family: "melkweg", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 5em;
+}
+
+main section:nth-child(-2n + 2) ul:nth-of-type(2) li h4{
+	font-weight: normal;
+	padding-top: 0.5em;
+	}
+
+/* just announced en next */
+main section:nth-child(-2n + 2) ul:nth-of-type(1){
+	font-size: 2em;
+	display: flex;
+	padding-bottom: 0.8em;
+	border-bottom: solid 2px var(--color-text);
+	text-transform: uppercase;
+}
+
+main section:nth-child(-2n + 2) ul:nth-of-type(1) a{
+	text-decoration: none;
+}
+
+main section:nth-child(-2n + 2) ul:nth-of-type(1) a:hover{
+	text-decoration: underline;
+}
+
+main section:nth-child(-2n + 2) ul:nth-of-type(1) li:nth-of-type(2){
+margin-left: 1em;
+}
+
+
+/* Alles onder just announced en next */
+
+main section:nth-child(-2n + 2) ul:nth-of-type(2) li{
+	font-size: 0.6em;
+	padding-bottom: 0.8em;
+	border-bottom: solid 2px var(--color-lijn) ;
+	color: var(--color-lijn);
+	text-transform: uppercase;
+	position: relative;
+}
+
+main section:nth-child(-2n + 2) ul:nth-of-type(2) li a{
+	text-decoration: none;
+}
+
+main section:nth-child(-2n + 2) ul:nth-of-type(2) li a:hover{
+	text-decoration: underline;
+}
+
+main section:nth-child(-2n + 2) ul:nth-of-type(2) li p:nth-of-type(1){
+	padding-top: 1em;
+	filter: opacity(50%);
+	padding: 0;
+}
+
+/* Datum helemaal rechts */
+main section:nth-child(-2n + 2) ul:nth-of-type(2) li p:nth-of-type(2){
+	position: absolute;
+	font-family: "melkweg", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	top: 0;
+	right: 0;
+	padding-top: 0.7em;
+	font-size: 0.8em;
+}
+
+
+
+/* HIGHLIGHTS */
+main section:nth-child(-2n + 2) ul:nth-of-type(3){
+	padding-top: 1em;
+}
+
+/* Highlights styling */
+main section:nth-child(-2n + 2) h3 {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	padding-top: 3em;
+	padding-bottom: 0.5em;
+	font-size: 1.6em;
+	font-weight: normal;
+	border-bottom: solid 2px var(--color-text);
+}
+
+
+
+/* Content voor highlights */
+
+/* p styling */
+main section:nth-child(-2n + 2) ul:nth-of-type(3) p{
+	font-size: 0.5em;
+	font-family: "melkweg", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+
+/* h4 styling */
+main section:nth-child(-2n + 2) ul:nth-of-type(3) h4{
+	font-size: 0.8em;
+	font-weight: normal;
+	padding-bottom: 1.3em;
+}
+
+main section:nth-child(-2n + 2) ul:nth-of-type(3) h4 a{
+	text-decoration: none;
+	text-transform: uppercase;
+	
+}
+
+
+main section:nth-child(-2n + 2) ul:nth-of-type(3) img{
+		width: 90vw;
+}
+
+
+
+
+
+/* Sectoin 3 groot scherm */
+@media screen and (min-width:650px) {
+
+
+	main section:nth-child(-2n + 2)  ul:nth-of-type(2) img{
+	width: 6em;
+
+	}
+	main section:nth-child(-2n + 2) {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	
+}
+
+
+
+
+
+
+/* DERDE SECTION: AGENDA */
+
+/* Weghalen h3 kopje */
+main section:nth-child(-3n + 3) h2 {
+   display: none;
+}
+
+
+/* styling a link */
+main section:nth-child(-3n + 3) a {
+	font-family: "melkweg", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 4em;
+   text-decoration: none;
+   padding: 0.3em;
+   padding-left: 0.54em;
+   border-bottom: solid var(--color-text);
+   border-top: solid var(--color-text);
+   background-color: var(--color-background);
+   display: block;
+}
+
+main section:nth-child(-3n + 3) img {
+	width: 0.6em;
+}
+
+main section:nth-child(-3n + 3) a:hover {
+	font-family: "melkweg", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 4em;
+   text-decoration: none;
+   padding: 0.3em;
+   padding-left: 0.54em;
+   border-bottom: solid var(--color-text);
+   display: block;
+   filter: invert(100%);
+}
+
+
+
+@media screen and (min-width:0px) {
+	
+/* 4E SECTION: YOUNG CREATIVES */
+main section:nth-child(-4n + 4) {
+	padding: 2em;
+}
+
+main section:nth-child(-4n + 4) h2{
+	font-family: "melkweg", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 5em;
+	padding-top: 0.1em;
+	padding-bottom: 0.3em;
+}
+
+main section:nth-child(-4n + 4) p{
+	font-size: 2em;
+	padding-bottom: 1em;
+}
+
+/* link naar lees meer */
+main section:nth-child(-4n + 4) a{
+	font-size: 2em;
+	text-decoration: none;
+	padding-bottom: 5em;
+}
+
+main section:nth-child(-4n + 4) a:hover{
+	font-size: 2em;
+	text-decoration: underline;
+}
+
+main section:nth-child(-4n + 4) a img{
+	width: 0.6em;
+	
+}
+
+}
+
+
+@media screen and (min-width:650px) {
+	
+	/* 4E SECTION: YOUNG CREATIVES */
+	main section:nth-child(-4n + 4)  {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 2em
+	}
+}
+
+
+
+
