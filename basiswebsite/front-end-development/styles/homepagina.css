@@ -71,6 +71,7 @@ main section:nth-child(1) ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     list-style-type: none;
+    gap: 2em;
 }
 
 main section:nth-child(1) li{
